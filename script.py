@@ -14,4 +14,11 @@ def get_traveler_location(traveler):
     return traveler_destination_index
 
 test_destination_index = get_traveler_location(test_traveler)
-print (test_destination_index)
+# print (test_destination_index)
+
+attractions = [[] for i in destinations]
+
+def add_attraction(destination, attracion):
+    destination_index = get_destination_index(destination)
+    attractions_for_destinaion = destination_index[1]
+    attractions.append()
